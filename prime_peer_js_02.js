@@ -33,8 +33,8 @@ var array = [person1, person2, person3, person4, person5, person6, person7, pers
 for(var i=0; i < array.length; i++){
 	console.log(array[i].name);
 	console.log(array[i].lastName);
-	console.log("Has "+array[i].corgis+" hungry corgis");
-	console.log("Has "+array[i].kittens+" fluffy kittens");
+	console.log("Has "+array[i].corgis+" hungry corgis and");
+	console.log(" "+array[i].kittens+" fluffy kittens.");
 }
 
 function getCorgis(){
